@@ -1,6 +1,5 @@
-// /config/firebaseConfig.js
 const admin = require("firebase-admin");
-const serviceAccount = require('..//firebasesdk.json'); // Download your Firebase service key
+const serviceAccount = require('..//products-e4f8c-4c7d59ee2e52.json'); // Download your Firebase service key
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
