@@ -84,7 +84,7 @@ router.post('/users',verifyAdmin, async (req, res) => {
 });
 
 // Update a user
-router.put('/users/:firebaseUid',verifyAdmin, async (req, res) => {
+router.put('/users/:firebaseUid', async (req, res) => {
 
   console.log("-----------------------")
   console.log(req.params)
